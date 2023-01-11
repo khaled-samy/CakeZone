@@ -36,3 +36,101 @@ header {
 
 /* end style header */
 
+section {
+   padding: 80px 250px; 
+}
+
+/* start welcome section style */
+
+.main {
+  width: 100%;
+  min-height: 60vh;
+  margin-bottom: 100px;
+  background: url(img/hero.jpg) no-repeat;
+  color: rgb(255, 255, 255);
+}
+
+.main-content {
+  padding-top: 4.5em;
+}
+
+.main h3 {
+  color: rgb(228, 141, 42);
+  font-family: Playfair Display;
+  font-size: 2.4em;
+  font-weight: 900;
+}
+
+.main h2 {
+  font-size: 3.8em;
+}
+
+.main p {
+  font-size: 2.0em;
+  font-weight: 700;
+}
+
+.main-more-details {
+  padding: 2.2em 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.main-btn {
+  padding: 1em 2em;
+  background-color: rgb(228, 141, 42);
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.main-btn:hover {
+  color: rgb(0, 0, 0);
+}
+
+.main-more-details p {
+  font-size: 1.2em;
+}
+
+.icon-container{
+  position: relative;
+}
+.play-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  color: rgb(228, 141, 42);
+  width: 2.6em;
+  height: 2.6em;
+  font-size: 1.5em;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 0.7em;
+  position: relative;
+  transition: all .6s;
+}
+
+.play-icon:hover {
+  color: rgb(0, 0, 0);
+}
+
+.play-icon-div {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: #FFFFFF;
+  border-radius: 100%;
+  animation: pulse-border 1500ms ease-out infinite;
+}
+
+/* end welcome section style */
